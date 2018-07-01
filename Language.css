@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+	margin:0;
+	color:#4e4e4e;
+	font:1.1em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	min-width:990px;
+	position:relative;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Styles for header part */
+.header{
+	width:100%;
+	margin:0 0 8px;
+	border-bottom:8px solid #3fc1c9;
+	/* border-bottom:8px solid#fc5185 */
+}
+.header .holder{
+	width:979px;
+	padding:25px 0 7px 5px;
+	margin:0 auto;
+}
+.header .row{
+	/* width:100%; */
+    text-align:center;
+    width:825px;
+    margin:0 auto 4px;
+}
+.header .row strong{
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.909em;
+	line-height:1.6em;
+	letter-spacing:2px;
+    color:#0b0b0b;
+    
+}
+.logo{
+    /* Default wxh is 825x193 */
+	width:825px;
+	height:60px;
+	overflow:hidden;
+    margin:0 auto 4px;
+    font-size: 45px;
+    font-weight:bold;
+}
+
+/* Styles for Area part*/
+.area{
+	width:100%;
+    color:#fff;
+    background-color: #364f6b
+
+}
+.area .area-holder{
+	width:984px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:23px 0 0;
+}
+.area .visual{
+	float:left;
+	width:378px;
+	padding:11px 8px 0 73px;
+	position:relative;
+}
+.big-character {
+    /* Default wxh is 378x371 */
+	width:300px; 
+	height:371px;
+	position:relative;
+	/* background-color: #3fc1c9 */
+}
+
+.area .info-block{
+	height:1%;
+	overflow:hidden;
+	padding:37px 70px 0 0px;
+	letter-spacing:1px;
+	/* 20px for font is good */
+	font-size: 22px 
+}
+.area p{margin:0 0 22px;}
+.area .info-block p{overflow:hidden;}
